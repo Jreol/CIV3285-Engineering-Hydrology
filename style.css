@@ -12,7 +12,7 @@ h1, h2, h3 {
 }
 
 div {
-    width: 800px;
+    max-width: 800px;
     text-align: justify;
     margin: 0px auto 0px auto;
 }
@@ -25,8 +25,8 @@ div {
 }
 
 .main-content {
-    margin: 50px auto 50px auto;
-    width: 600px;
+    max-width: 800px;
+    padding-left: 200px;
     text-align: justify;
 }
 
