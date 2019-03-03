@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
-    color: #404040;
+    color: #202020;
     font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
     text-align: center;
     background-image: url(https://images.unsplash.com/photo-1551376347-075b0121a65b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
@@ -28,30 +28,32 @@ div {
 
 .main-content {
     max-width: 800px;
-    padding-left: 200px;
+    padding-left: 250px;
     text-align: justify;
 }
 
 .main-navigation {
     position: fixed;
-    width: 200px;
+    width: 225px;
     left: 0px;
     top: 0px;
     bottom: 0px;
     text-align: left;
     background-color: #404040;
     color: #9b9b9b;
+    overflow: scroll;
 }
 
 .nav-items {
     width: auto;
-    padding: 2.5px 0px 2.5px 20px;
+    padding: 2.5px 20px 2.5px 20px;
     text-align: left;
+    font-size: 90%;
 }
 
 .nav-items a {
     text-decoration: none;
-    color: #9b9b9b;
+    color: #fbfbfb;
 }
 
 .nav-items:hover {
@@ -71,7 +73,8 @@ div {
 
 .nav-headings h2 {
     margin: 0px 0px 0px -5px;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 }
 
 .nav-sections {
