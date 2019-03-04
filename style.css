@@ -19,6 +19,10 @@ div {
     margin: 0px auto 0px auto;
 }
 
+img {
+    width: 100%;
+}
+
 .title {
     border: solid powderblue;
     padding: 10px 0px 10px 0px;
